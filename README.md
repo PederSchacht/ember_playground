@@ -1,3 +1,7 @@
+My Ember Playground app built by following the tutorial on [yoember.com](http://yoember.com/)
+
+View my live app at: [ps-ember-playground.firebaseapp.com](https://ps-ember-playground.firebaseapp.com/)
+
 # Library-app
 
 This README outlines the details of collaborating on this Ember application.
@@ -50,4 +54,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-

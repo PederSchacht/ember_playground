@@ -18,11 +18,13 @@
     <p>Don't miss our launch date, request an invitation now.</p>
 
     <div class="form-horizontal form-group form-group-lg row {{if model.isValid 'has-success'}}">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-2">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-2">
           {{input type="email" value=model.email class="form-control" placeholder="Please type your e-mail address." autofocus="autofocus"}}
           {{#if model.isValid}}<span class="glyphicon glyphicon-ok form-control-feedback"></span>{{/if}}
         </div>
-        <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-3">
+    </div>
+    <div class="form-horizontal form-group form-group-lg row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 col-md-3">
             <button class="btn btn-primary btn-lg btn-block" disabled={{model.isDisabled}} {{action 'saveInvitation' model}}>Request invitation</button>
         </div>
     </div>
