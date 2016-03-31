@@ -15,3 +15,11 @@ html {
 .form-control-feedback {
   right: 15px;
 }
+
+.label-fade {
+  opacity: 0;
+  @include transition(all 0.5s);
+  &.label-show {
+    opacity: 1;
+  }
+}
